@@ -1,1 +1,8 @@
-В данной папке размещаем файлы изображений *.jpg, *.png, *.svg
+В данной папке размещаем файлы изображений *.jpg, *.png, *.svg![1](https://github.com/user-attachments/assets/b96ad734-2083-44cc-8c33-0c2d3929042f)
+![2](https://github.com/user-attachments/assets/1df30c8c-17ff-48ce-a4b1-88625692fbf3)
+![export-icon (5)](https://github.com/user-attachments/assets/7ef0449c-1cbe-4e23-b10f-9bc56b5b8e84)
+![export-icon (1)](https://github.com/user-attachments/assets/ff8d0d31-9d5e-48a9-8c9a-738a7bb64c7f)
+![export-icon (4)](https://github.com/user-attachments/assets/a47430a9-864c-4290-995a-6ed695d1062b)
+![export-icon (2)](https://github.com/user-attachments/assets/44cb18f3-a551-4f50-9cd5-b43ca7728bc8)
+![export-icon (7)](https://github.com/user-attachments/assets/0176164b-6b3e-4bf8-9f87-474a69792b5f)
+![export-icon](https://github.com/user-attachments/assets/6c489e0b-c230-447d-8a00-c10bed01e612)
