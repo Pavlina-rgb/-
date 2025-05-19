@@ -4,5 +4,20 @@
 ![export-icon (1)](https://github.com/user-attachments/assets/ff8d0d31-9d5e-48a9-8c9a-738a7bb64c7f)
 ![export-icon (4)](https://github.com/user-attachments/assets/a47430a9-864c-4290-995a-6ed695d1062b)
 ![export-icon (2)](https://github.com/user-attachments/assets/44cb18f3-a551-4f50-9cd5-b43ca7728bc8)
-![export-icon (7)](https://github.com/user-attachments/assets/0176164b-6b3e-4bf8-9f87-474a69792b5f)
+![export-icon (7)](https://github.com![марий чодра1](https://github.com/user-attachments/assets/a538fb2b-c9ac-4188-8a17-3856bc7f32a6)![река Ирека1](https://github.com/user-attachments/assets/d1745f26-df3f-433a-afc8-d57b61b53030)
+
+/user-attachme![кедровая роща1](https://gith![река Ирека](https://github.com/user-attachments/assets/e9f5d37b-6ef8-468f-b75a-5306d35c5f44)
+u![марий чодра2](https://github.com/user-attachments/assets/e089ed62-1cc8-44c0-bd37-c4b98fff87d4)
+b.com/user-attachments/assets/26c6b27d-a182-40![кедровая роща2](https://github.com/user-attachments/assets/bb82426a-5413-44ce-b![Кокшага](https://github.com/user-attachments/assets/9ffa1259-4513-4fde-8efe-e2565aa8e139)
+1c0-e9dbdb38ce56)![марий чодра](https://github.com/user-attachments/assets/50224af1-6e70-4206-824a-8f849f941dfd)
+
+d0-9ccc-93fe89f926ba)
+nts/assets/0176164b-6b3e-4bf8-9f87-474a69792b5f)
 ![export-icon](https://github.com/user-attachments/assets/6c489e0b-c230-447d-8a00-c10bed01e612)
+![ботанический сад1](https://github.com/user-attachments![кедровая роща](https://github.com/user-attachments/assets/4a424af0-3920-4daf-85da-85f3c71db10f)
+/assets/add![замок2](https://github.com/user-attachments/assets/db08435d-f667-4eab-86c3-a814f7e4f4ec)
+36c7d-c075-4dac-9d2e-6013b46bd2a8)
+![ботанический сад2](https://github.com/user-attachments/asset![замок1](https://github.com/user-attachments/assets/5c4043dd-65e3-4ba4-8322-ae94db067c06)
+s![замок](https://github.com/user-attachments/assets/dd632d63-0964-418c-a0ad-78dcb8ecb79c)
+/20b6c02e-07b4-4cf7-a079-ad74d32a0410)![ботанический сайт](https://github.com/user-attachments/assets/ef0e77f1-b7f2-4000-97e4-4799ffcf1206)
+
