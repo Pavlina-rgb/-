@@ -4,33 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Сокровища Марий Эл</title>
 </head>
 
-<body>
-    <header>
-        <img src="images/2.jpg" alt="Сокровища Марий Эл" width="150" height="150">
-        <h1>Сокровища Марий Эл</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Природные памятники</a></li>
-                <li><a href="#">Культурные памятники</a></li>
-                <li><a href="#">Галерея</a></li>
-                <li><a href="#">О нас</a></li>
+<body class="body">
+    <header class="header">
+        <img class="logo" src="images/logo.jpg" alt="Сокровища Марий Эл" width="150" height="150">
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#">Природные памятники</a></li>
+                <li class="header__item"><a class="header__link" href="#">Культурные памятники</a></li>
+                <li class="header__item"><a class="header__link" href="#">Галерея</a></li>
+                <li class="header__item"><a class="header__link" href="#">О нас</a></li>
+                <li class="header__item"><a class="header__link" href="#">Вход</a></li>
             </ul>
         </nav>
-        <a href="login.html">Вход</a>
     </header>
-    <main>
-        <section>
-
+    <main class="main">
+        <section class="info">
+            <h1 class="info__title">Немного о республике Марий Эл</h1>
+            <p class="info__text">сюда надо будет вставить краткий текст о республике Марий Эл</p>
+        </section>
+        <section class="attractions">
+            <h2 class="attractions__title">Интересные места для посещения</h2>
+            <div class="attractions__slider">
+                <button class="attractions__left attractions__button">
+                    <span>&#129044;</span>
+                </button>
+                <ul class="attractions__list">
+                    <li class="attractions__item"><a class="attractions__link" href="first.html" target="_blank">
+                            <img class="attractions__img" src="./images/logo.jpg" width="250" height="250"
+                                alt="первобытное общество">
+                            <h3 class="attractions__data">xxxx-xxxx</h3>
+                            <p class="attractions__name">первобытное общество</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="old.html" target="_blank">
+                            <img class="era__img old" src="./image/old.jpg" width="250" height="250"
+                                alt="Древнейшее время">
+                            <h3 class="era__data">xxxx-xxxx</h3>
+                            <p class="era__name">Древнейшее время</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="mid.html" target="_blank">
+                            <img class="era__img midle" src="./image/midle.jpg" width="250" height="250"
+                                alt="Средние века">
+                            <h3 class="era__data">xxxx-xxxx</h3>
+                            <p class="era__name">Средние века</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="renesans.html" target="_blank">
+                            <img class="era__img renesans" src="./image/renesans.jpg" width="250" height="250"
+                                alt="эпоха возрождения">
+                            <h3 class="era__data">xxxx-xxxx</h3>
+                            <p class="era__name">эпоха возрождения</p>
+                        </a>
+                    <li class="era__item"><a class="era__link" href="new.html" target="_blank">
+                            <img class="era__img new" src="./image/new.jpg" width="250" height="250" alt="Новое время">
+                            <h3 class="era__data">xxxx-xxxx</h3>
+                            <p class="era__name">Новое время</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="now.html" target="_blank">
+                            <img class="era__img verynew" src="./image/verynew.jpg" width="250" height="250"
+                                alt="Средние века">
+                            <h3 class="era__data">xxxx-xxxx</h3>
+                            <p class="era__name">Новейшее время</p>
+                        </a>
+                    </li>
+                </ul>
+                <button class="era__right era__button">
+                    <span>&#10132;</span>
+                </button>
+            </div>
+        </section>
         </section>
     </main>
-    <footer>
-        <p>сайт создан Уваровой Павлиной и Измайловой Анной из группы ИТ-31</p>
-        <ul>
-            <li><a href="#">Политика конфидециальности</a><li>
-            <li><a href="#">Ссылки на страницы авторов</a></li>
-        </ul>
+    <footer class="footer">
+        <p class="text">сайт создан Уваровой Павлиной и Измайловой Анной из группы ИТ-31</p>
+        <nav class="footer__menu">
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="#">Политика конфидециальности</a><li>
+                <li class="footer__item"><a class="footer__link" href="#">Ссылки на страницы авторов</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
