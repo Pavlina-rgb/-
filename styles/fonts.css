@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'silvana';
+    src: url(../fonts/SilvanaTextVF-Light.woff2) format('.woff2');
+    font-weight: 700;
+    font-display: swap;
+}
