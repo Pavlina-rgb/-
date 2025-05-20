@@ -16,3 +16,8 @@
 .info__text{
     margin-left: 20px;
 }
+.attractions__name{
+    color: #000;
+}
+.attractions__img:hover{
+    transform: scale(1.05);}

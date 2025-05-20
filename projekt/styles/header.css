@@ -21,13 +21,17 @@
 .header__list{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap:40px;
     list-style: none;
     text-decoration: none;
 }
+
 .header__link{
     color: rgb(255, 254, 254);
     margin: 50px;
     text-decoration: none;
-    transition: 0,5ms all ease-out;
+    transition: 3s all ease-out;
+}
+.header__link:hover{
+    text-decoration: underline;
 }
