@@ -1,16 +1,17 @@
 .footer{
+    padding: 5px 15px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     gap: 30px;
     background-color: rgb(128, 0, 0);
     color: white;
-    font-family: 'popins', sans-serif;
+    font-family: 'popins', "montserrat";
     font-weight: 400;
     font-size: medium;
     font-style: italic;
 }
 .footer__list{
-    display: grid;
+    display: flex;
     justify-content: left;
     gap: 10px;
     list-style: none;
@@ -30,5 +31,5 @@
     text-decoration: underline;
 }
 .text-wrapper{
-   margin-right: 20px;
+   margin-right: 30px;
 }

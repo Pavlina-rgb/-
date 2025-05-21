@@ -21,3 +21,11 @@
 }
 .attractions__img:hover{
     transform: scale(1.05);}
+.dialog {
+    color: #000;
+}
+.attractions__list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

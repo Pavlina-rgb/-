@@ -32,11 +32,11 @@ function updateSlider() {
     });
 }
 
-const EraContainer = document.querySelector(".attractions");
+const attractionsContainer = document.querySelector(".attractions");
 
-if (EraContainer) {
+if (attractionsContainer) {
     console.log('достопримечательности существуют');
-    const dataTitleEra = [
+    const dataTitleattractoins = [
         "Волжский р-н",
         "г. Йошкар-Ола",
         "Горномарийский р-н",
@@ -45,10 +45,10 @@ if (EraContainer) {
         "пгт. Юрино",
     ];
 
-    const titleEra =
-            EraContainer.querySelectorAll(".attractions__data");
+    const titleattractions =
+            attractionsContainer.querySelectorAll(".attractions__data");
 
-            titleEra.forEach((item, index) => {
-                item.textContent = dataTitleEra[index];
+            titleattractions.forEach((item, index) => {
+                item.textContent = dataTitleattractions[index];
             });
      } 
