@@ -32,23 +32,23 @@ function updateSlider() {
     });
 }
 
-const attractionsContainer = document.querySelector(".attractions");
+const EraContainer = document.querySelector(".attractions");
 
-if (attractionsContainer) {
+if (EraContainer) {
     console.log('достопримечательности существуют');
-    const dataTitleattractoins = [
-        "Волжский р-н",
-        "г. Йошкар-Ола",
-        "Горномарийский р-н",
-        "г. Йошкар-Ола",
-        "г. Йошкар-Ола",
-        "пгт. Юрино",
+    const dataTitleEra = [
+        "Волжск",
+        "5000 до н.э- 500 н.э",
+        "500- 1500",
+        "14 век- 1590-е годы",
+        "1500-1914",
+        "1914- настоящее",
     ];
 
-    const titleattractions =
-            attractionsContainer.querySelectorAll(".attractions__data");
+    const titleEra =
+            EraContainer.querySelectorAll(".attractions__data");
 
-            titleattractions.forEach((item, index) => {
-                item.textContent = dataTitleattractions[index];
+            titleEra.forEach((item, index) => {
+                item.textContent = dataTitleEra[index];
             });
      } 

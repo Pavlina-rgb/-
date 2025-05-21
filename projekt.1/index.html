@@ -31,7 +31,7 @@
         </section>
         <section class="attractions">
             <h2 class="attractions__title">Интересные места для посещения</h2>
-            <div class="attractions__slider">
+            <div class="attractions__slider"></div>
                 <button class="attractions__left attractions__button">
                     <span>&#129044;</span>
                 </button>
@@ -77,7 +77,7 @@
                     <li class="attractions__item"><a class="attractions__link" href="now.html" target="_blank">
                             <img class="attractions__img verynew" src="./images/zamok.jpg" width="700" height="500"
                                 alt="Замок Шереметева">
-                            <h3 class="attractions__data">пгт. Юрино</h3>
+                            <h3 class="attractions__data">пгт Юрино</h3>
                         </a>
                         <p class="attractions__name">Замок Шереметева</p>
                         <p class="attractions__name">Расположен на берегу Волги, в поселке Юрино Республики Марий Эл. Многие называют замок жемчужиной Поволжья.</p>
@@ -87,23 +87,22 @@
                 <button class="attractions__right attractions__button">
                     <span>&#10132;</span>
                 </button>
-            </div>
         </section>
-         <section class="dialog">
+         <section id="feedback">
         <h2>Обратная связь</h2>
-        <form class="dialog-form">
-            <label class="dialog__label" for="name">Имя:</label>
+        <form id="feedback-form">
+            <label for="name">Имя:</label>
             <input type="text" id="name" name="name" required><br><br>
 
             <label for="email">Email:</label>
-            <input type="email" class="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" required><br><br>
 
             <label for="message">Сообщение:</label>
-            <textarea class="message" name="message" rows="4" required></textarea><br><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
 
             <button type="submit">Отправить</button>
         </form>
-        <div class="dialog-message"></div> <!-- Для отображения сообщений об успехе/ошибке -->
+        <div id="feedback-message"></div> <!-- Для отображения сообщений об успехе/ошибке -->
     </section>
     </main>
     <footer class="footer container">
