@@ -1,0 +1,31 @@
+.main{
+    background-color: rgb(255, 253, 253);
+    color: rgb(255, 253, 253);
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
+    font-size: 20px;
+}
+.info{
+    background-color: rgb(128, 0, 0);
+}
+.info__title{
+    margin-left: 15px;
+}
+.info__text{
+    margin-left: 20px;
+}
+.attractions__name{
+    color: #000;
+}
+.attractions__img:hover{
+    transform: scale(1.05);}
+.dialog {
+    color: #000;
+}
+.attractions__list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

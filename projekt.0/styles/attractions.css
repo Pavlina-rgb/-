@@ -1,0 +1,35 @@
+.attractions__slider{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+}
+.attractions__list {
+    width: 1350px;
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    align-items: flex-start;
+    color: #000
+}
+.attractions__img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.attractions__item {
+    width: 360px;
+    transition: 0.3s ease;
+    flex: auto;
+    height: 100%;
+    display: flex; 
+    align-items: flex-start;
+   }
+.attractions__button{
+    padding:150px 20px;
+}
+.attractions__title {
+      color: rgb(0, 0, 0);
+}
+    
