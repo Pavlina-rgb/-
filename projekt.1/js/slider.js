@@ -37,9 +37,9 @@ const EraContainer = document.querySelector(".attractions");
 if (EraContainer) {
     console.log('достопримечательности существуют');
     const dataTitleEra = [
-        "Волжск",
-        "5000 до н.э- 500 н.э",
-        "500- 1500",
+        "Волжский р-н",
+        "г. Йошкар-Ола",
+        "Горномарийский р-н",
         "14 век- 1590-е годы",
         "1500-1914",
         "1914- настоящее",
