@@ -20,7 +20,7 @@
                 <li class="header__item"><a class="header__link" href="#">О нас</a></li>
                 <li class="header__item"><a class="header__link" href="#">Вход</a></li>
             </ul>
-             <button class="header__registration header__button">Регистрация</button>
+             <button class="tour-button" id="openModal">Записаться на тур</button>
         </nav>
     </header>
     <main class="main container">
@@ -119,46 +119,26 @@
         </nav>
     </footer>
     <script src="js/slider.js"></script>
-    <div class="dialog" hidden>
-        <section class="popup" hidden>
-            <img class="popupclose" src="./image/close.png" alt="popupclose" data-close>
-            <h2 class="popup__title">Регистрация</h2>
-            <form class="popup__form form" action="/" method="post">
-                <input class="form__field" type="text" name="name" placeholder="Имя" required>
-                <input class="form__field" type="email" name="email" placeholder="Логин" required>
-                <fieldset class="form__fieldset">
-                    <div class="form__field-block">
-                        <input class="form__field" type="password" name="password" placeholder="Пароль" required>
-                        <span>Минимум 8 символов</span>
-                    </div>
-                    <input class="form__field" type="password" name="repeat-password" placeholder="Повторите пароль"
-                        required>
-                </fieldset>
-                <fieldset class="form__buttons">
-                    <button class="button" type="submit" data-registration>Зарегистрироваться</button>
-                    <button class="cancellbutton" type="button" data-close>Отмена</button>
-                </fieldset>
+    <div class="applications" id="modalWindow" hidden>
+    <section class="application">
+        <button class="application__close" id="closeModal">×</button>
+        <div class="application__wrap">
+            <h3 class="application__title">Запись на тур</h3>
+            <p class="application__text">Оставьте свои данные и мы свяжемся с вами</p>
+            <form action="/" class="application__form">
+                <input class="application__input" type="text" placeholder="Имя" required>
+                <input class="application__input" type="tel" placeholder="Телефон" required>
+                <input class="application__input" type="email" placeholder="E-mail" required>
+                <button class="application__button" type="submit">Отправить заявку</button>
             </form>
-        </section>
-    </div>
-    <div class="sindialog" hidden>
-        <section class="sinpopup" hidden>
-            <img class="sinpopup__close close__button" src="./image/close.png" alt="sinpopup__close">
-            <h2 class="sinpopup__title">Войти</h2>
-            <form class="sinpopup__form sinform" action="/" method="post">
-                <input class="sinform__field" type="email" name="email" placeholder="Логин" required>
-                <input class="sinform__field" type="password" name="password" placeholder="Пароль" required>
-                <fieldset class="sinform__buttons">
-                    <button class="sincancellbutton closebutton button-close" type="button">Отмена</button>
-                    <button class="sincancellbutton closebutton" type="button" class="button-close">Отмена</button>
-                </fieldset>
-            </form>
-        </section>
-    </div>
+        </div>
+    </section>
+</div>
+
     <script src="scripts/script.js"></script>
     <script src="scripts/navmenu.js"></script>
     <script src="scripts/testscart.js"></script>
-    <script src="scripts/popup.js"></script>
+    <script src="scripts/application.js"></script>
     <script src="scripts/hover.js"></script>
     <script src="scripts/preloader.js"></script>
 </body>
