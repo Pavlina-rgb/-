@@ -118,9 +118,10 @@
             </ul>
         </nav>
     </footer>
+    <script src="js/slider.js"></script>
     <div class="dialog" hidden>
         <section class="popup" hidden>
-            <img class="popup__close" src="./image/close.png" alt="popup__close" data__close>
+            <img class="popupclose" src="./image/close.png" alt="popupclose" data-close>
             <h2 class="popup__title">Регистрация</h2>
             <form class="popup__form form" action="/" method="post">
                 <input class="form__field" type="text" name="name" placeholder="Имя" required>
@@ -134,8 +135,8 @@
                         required>
                 </fieldset>
                 <fieldset class="form__buttons">
-                    <button class="button" type="submit" data__registration>Зарегистрироваться</button>
-                    <button class="cancellbutton" type="button" data__close>Отмена</button>
+                    <button class="button" type="submit" data-registration>Зарегистрироваться</button>
+                    <button class="cancellbutton" type="button" data-close>Отмена</button>
                 </fieldset>
             </form>
         </section>
@@ -148,8 +149,8 @@
                 <input class="sinform__field" type="email" name="email" placeholder="Логин" required>
                 <input class="sinform__field" type="password" name="password" placeholder="Пароль" required>
                 <fieldset class="sinform__buttons">
-                    <button class="button" type="submit" data__login>Войти</button>
-                    <button class="sincancellbutton close__button" type="button" data__close>Отмена</button>
+                    <button class="sincancellbutton closebutton button-close" type="button">Отмена</button>
+                    <button class="sincancellbutton closebutton" type="button" class="button-close">Отмена</button>
                 </fieldset>
             </form>
         </section>
@@ -160,6 +161,4 @@
     <script src="scripts/popup.js"></script>
     <script src="scripts/hover.js"></script>
     <script src="scripts/preloader.js"></script>
-</body>
-    <script src="js/slider.js"></script>
 </body>
