@@ -36,7 +36,7 @@ const attractionsContainer = document.querySelector(".attractions");
 
 if (attractionsContainer) {
     console.log('достопримечательности существуют');
-    const dataTitleattractoins = [
+    const dataTitleAttractoins = [
         "Волжский р-н",
         "г. Йошкар-Ола",
         "Горномарийский р-н",
@@ -45,10 +45,9 @@ if (attractionsContainer) {
         "пгт. Юрино",
     ];
 
-    const titleattractions =
-            attractionsContainer.querySelectorAll(".attractions__data");
+    const titleAttractions = attractionsContainer.querySelectorAll(".attractions__data");
 
-            titleattractions.forEach((item, index) => {
-                item.textContent = dataTitleattractions[index];
+            titleAttractions.forEach((item, index) => {
+                item.textContent = dataTitleAttractoins[index];
             });
      } 
