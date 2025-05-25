@@ -1,5 +1,8 @@
 'use strict'
 
+document.addEventListener("DOMContentLoaded", () => {
+console.log('Скрипт отработал корректно')
+});
 
 document.addEventListener('DOMContentLoaded', function () {
     const openBtn = document.getElementById('openModal');
