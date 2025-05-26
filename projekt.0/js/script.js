@@ -4,6 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
 console.log('Скрипт отработал корректно')
 });
 
+//Алгоритм
+//1.Начало
+//2.Получаем все элементы кнопок для слайдера (влево-вправо)
+//3.Проверяем существуют ли кнопки:
+    //3.1 Добавляем обработчик нажатия курсора на кнопку:
+      //3.1.1 Да:
+       //3.1.1.1 Листаем влево/вправо при наведении, с перемещением на следующий элемент
+    //3.1.2 Нет: продолжаем
+//4. Конец
+
 document.addEventListener('DOMContentLoaded', function () {
     const openBtn = document.getElementById('openModal');
     const closeBtn = document.getElementById('closeModal');
