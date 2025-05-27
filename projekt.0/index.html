@@ -4,12 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Сокровища Марий Эл</title>
 </head>
 
 <body class="body">
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <div class="content">
     <header class="header container">
         <img class="logo" src="images/gerb.jpg" alt="Сокровища Марий Эл" width="300" height="300">
         <nav class="header__menu">
@@ -30,34 +35,30 @@
 Столицей является город Йошкар-Ола. Территория республики - 23,4 тыс. кв.км. Государственные языки - марийский и русский. Марий Эл богата своими природными и культурными памятниками, которые ежегодно привлекают множество туристов с разных уголков мира.</p>
 
         </section>
-        <section class="attractions">
             <h2 class="attractions__title">Интересные места для посещения</h2>
-            <div class="attractions__slider">
-                <button class="attractions__left attractions__button">
-                    <span>&#129044;</span>
-                </button>
-                <ul class="attractions__list"></ul>
-               <button class="attractions__right attractions__button">
-    <span>&#10132;</span>
-</button>
-</div>
-</section>
+            <section class="attractions">
+            <div class=" attractions attractions__slider swiper">
+                <button class=" attractions__move__button swiper-button-prev swiper-button-color"></button>
+                <ul class="attractions__list swiper-wrapper"></ul>
+                <button class=" attractions__move__button swiper-button-next swiper-button-color"></button>
+            </div>
+        </section>
 
 <section class="dialog">
     <h2>Обратная связь</h2>
-    <form class="dialog-form">
+    <form class="dialog-form" id="feedbackForm">
         <label class="dialog__label" for="name">Имя:</label>
         <input type="text" id="name" name="name" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" class="email" name="email" required><br><br>
+        <input type="email" class="email" id="email" name="email" required><br><br>
 
         <label for="message">Сообщение:</label>
         <textarea class="message" id="message" name="message" rows="4" required></textarea><br><br>
 
         <button type="submit">Отправить</button>
     </form>
-    <div class="dialog-message"></div> <!-- Для отображения сообщений об успехе/ошибке -->
+    <div class="dialog-message"></div>
 </section>
 </main>
 
@@ -93,8 +94,10 @@
         </fieldset>
         <button class="button button--link" type="button">У меня уже есть аккаунт</button>
     </form>
+</div>
 </section>
 <script src="js/slider.js"></script>
 <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html> 

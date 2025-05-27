@@ -26,3 +26,7 @@
 @import "popup.css";
 
 @import "form.css";
+
+@import 'preloader.css';
+
+@import 'animation.css';
