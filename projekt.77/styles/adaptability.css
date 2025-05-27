@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+    .header{
+    justify-content: start;
+    align-items: center;
+    font-weight: 300;
+    font-size: medium;
+}
+    .header__link{
+        font-size: 15px;
+    }
+    .header__list{
+        gap: 20px;
+    }
+}

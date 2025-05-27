@@ -1,0 +1,32 @@
+@import "fonts.css";
+/*подключение шрифтов*/
+
+@import "base.css";
+/* подключение основных стилей*/
+
+@import "footer.css";
+/*подключение стилей относящихся к footer*/
+
+@import "header.css";
+/*подключение стилей относящихся к header*/
+
+@import "main.css";
+/*подключение стилей относящихся к main*/
+
+@import "media.css";
+
+@import "adaptability.css";
+
+@import "attractions.css";
+
+@import "dialog.css";
+
+@import "applications.css";
+
+@import "popup.css";
+
+@import "form.css";
+
+@import 'preloader.css';
+
+@import 'animation.css';

@@ -1,0 +1,35 @@
+.footer{
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    font-family: 'popins', "montserrat";
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+}
+.footer__list{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.footer_item{
+    display: inline-block;
+    margin: 10px;
+}
+.footer__link{
+    text-decoration: none;
+    color: #fff;
+}
+.footer__link:hover{
+    text-decoration: underline;
+}
+.text-wrapper{
+   margin-right: 30px;
+}
